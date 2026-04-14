@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experimento de Procrastinación</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div id="inicio" class="container">
+    <h1>Experimento de Procrastinación</h1>
+    <p>Ingresa tu nombre y permanece en la página para ganar un premio</p>
+    
+    <input type="text" id="nombre" placeholder="Tu nombre">
+    <button onclick="comenzar()">Comenzar</button>
+</div>
+
+<div id="experimento" class="container hidden">
+    <h2 id="saludo"></h2>
+    <h3>Recuerda no salirte de esta pestaña, para ganar un premio</h3>
+    <h3>Tiempo restante</h3>
+    <div id="timer">05:00</div>
+
+    <p>Distracciones detectadas:</p>
+    <div id="salidas">0</div>
+</div>
+
+<div id="final" class="container hidden">
+    <h2>Resultados</h2>
+    <h3>PRONTO SE MOSTRARAN LOS MAS PROCRASTINADORES</h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
