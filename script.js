@@ -1,4 +1,4 @@
-let tiempo = localStorage.getItem("tiempo") ? parseInt(localStorage.getItem("tiempo")) : 60; //this in seconds
+let tiempo = localStorage.getItem("tiempo") ? parseInt(localStorage.getItem("tiempo")) : 4200; //this in seconds
 let salidas = localStorage.getItem("salidas") ? parseInt(localStorage.getItem("salidas")) : 0;
 let nombre = localStorage.getItem("nombre") || "";
 let intervalo;
