@@ -15,6 +15,7 @@ function comenzar(){
 
     document.getElementById("inicio").classList.add("hidden");
     document.getElementById("experimento").classList.remove("hidden");
+    // document.getElementById("panelDatos").classList.remove("oculto");
 
     document.getElementById("saludo").innerText = "Hola " + nombre;
 
